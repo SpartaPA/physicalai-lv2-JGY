@@ -1,0 +1,27 @@
+## 기록 시각 (라즈베리파이 시계, NTP 미동기 가능)
+Thu Sep 12 00:23:45 KST 2024
+## host
+pa16
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+5.15.0-1061-raspi
+aarch64
+## user
+pa16
+pa16 adm dialout cdrom sudo audio video plugdev games users input render netdev gpio spi i2c
+## usb
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 001 Device 006: ID 0483:5740 STMicroelectronics Virtual COM Port
+Bus 001 Device 002: ID 2109:3431 VIA Labs, Inc. Hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+## port
+crw-rw---- 1 root dialout 166, 0 Sep 12 00:19 /dev/ttyACM0
+ID_VENDOR=ROBOTIS
+ID_MODEL=OpenCR_Virtual_ComPort_in_FS_Mode
+ID_SERIAL=ROBOTIS_OpenCR_Virtual_ComPort_in_FS_Mode_FFFFFFFEFFFF
+Port access OK: /dev/ttyACM0
+## uploader
+/home/pa16/pa/opencr_ld/opencr_ld
+/home/pa16/pa/opencr_ld/opencr_ld: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, BuildID[sha1]=f65e9a7cc0cfd3e2f0705c840ded1561027c291b, for GNU/Linux 3.7.0, not stripped
+## firmware
+c68eddf221d60cfc61767d1937120db2f3d74445dcc5d30b851d5be850df4f7f  /home/pa16/pa/opencr_position_p.ino.bin

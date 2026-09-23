@@ -1,0 +1,18 @@
+opencr_ld ver 1.0.4
+opencr_ld_main 
+>>
+file name : /home/pa16/pa/opencr_position_p.ino.bin 
+file size : 86 KB
+Open port OK
+Clear Buffer Start
+Clear Buffer End
+Board Name : OpenCR R1.0
+Board Ver  : 0x17020800
+Board Rev  : 0x00000000
+>>
+flash_erase : 0 : 0.892000 sec
+flash_write : 0 : 1.087000 sec 
+CRC OK 848830 848830 0.003000 sec
+[OK] Download 
+jump_to_fw 
+jump finished
