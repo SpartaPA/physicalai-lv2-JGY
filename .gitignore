@@ -1,0 +1,7 @@
+# VS Code C/C++ IntelliSense cache
+.vscode/browse.vc.db*
+.vscode/*.db*
+
+# Python
+__pycache__/
+*.pyc
