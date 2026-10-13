@@ -1,0 +1,32 @@
+# RealSense D435 컬러 카메라 내부 파라미터·왜곡 계수 (camera_calibration_parsers 형식)
+# 장비: D435 (시리얼 261322072019, 펌웨어 5.15.1.55), 컬러 640x480x30
+# 출처: realsense2_camera가 발행한 /camera/camera/color/camera_info (공장 캘리브레이션)
+#   기록: lv2_perception/lv2_module5/results/perception_env_record.md
+# 왜곡 계수 0: D435 컬러 스트림은 장치 안에서 보정된 영상을 내보내므로 camera_info의 D가 0이다.
+# 해상도를 바꾸면 값이 달라지므로 다시 `ros2 topic echo --once /camera/camera/color/camera_info`로 확인해 교체한다.
+image_width: 640
+image_height: 480
+camera_name: camera_color_optical_frame
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [607.32, 0.0, 328.45,
+         0.0, 607.19, 256.01,
+         0.0, 0.0, 1.0]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [0.0, 0.0, 0.0, 0.0, 0.0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1.0, 0.0, 0.0,
+         0.0, 1.0, 0.0,
+         0.0, 0.0, 1.0]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [607.32, 0.0, 328.45, 0.0,
+         0.0, 607.19, 256.01, 0.0,
+         0.0, 0.0, 1.0, 0.0]
