@@ -1,0 +1,7 @@
+bag,frames,py_detect_rate,node_detect_rate,paired_frames,detect_agreement,err_px_mean,err_px_median,err_px_max,node_latency_ms_median,motor_cmds,status_values,params
+scene6,30,1.000,1.000,30,1.000,0.00,0.00,0.00,1.4,32,TRACKING,realsense.yaml
+scene1,170,1.000,1.000,170,1.000,0.00,0.00,0.00,1.5,170,TRACKING,realsense.yaml
+scene5,85,1.000,1.000,85,1.000,0.00,0.00,0.00,1.3,87,TRACKING,realsense.yaml
+scene7,226,0.938,0.936,218,1.000,0.00,0.00,0.00,1.3,219,LOST/TRACKING,realsense.yaml
+scene8,406,0.889,0.889,406,1.000,0.00,0.00,0.00,1.4,336,LOST/TRACKING,realsense.yaml
+link_scene8,405,0.889,0.889,405,1.000,0.00,0.00,0.00,1.5,334,IDLE/LOST/TRACKING,realsense.yaml

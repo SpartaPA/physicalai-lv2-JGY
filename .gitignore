@@ -10,3 +10,6 @@ __pycache__/
 build/
 install/
 log/
+
+# lv2_module03: 압축을 푼 bag 폴더 (원본은 data/bags/*.tar.gz)
+lv2_module03/data/bags/*/

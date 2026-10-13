@@ -1,0 +1,67 @@
+[INFO] [launch]: All log files can be found below /home/a71143055/.ros/log/2026-10-13-11-05-45-730752-a71143055-Legion-Pro-5-16IAX10-69906
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [perception_node-1]: process started with pid [69910]
+[INFO] [dynamixel_move_node-2]: process started with pid [69911]
+[INFO] [dynamixel_controller-3]: process started with pid [69912]
+[dynamixel_controller-3] [ERROR] [1791857145.780705887] [dynamixel_controller]: serial open /dev/opencr: No such file or directory
+[dynamixel_move_node-2] [INFO] [1791857145.781507449] [dynamixel_move_node]: IDLE; waiting for first valid target
+[perception_node-1] [INFO] [1791857145.814793349] [perception_node]: PerceptionNode started | 구독 /camera/camera/color/image_raw (reliable) | 발행 /target, /perception_node/debug_image/compressed, /perception_node/mask/compressed | {hsv_lower: [103, 220, 20], hsv_upper: [130, 255, 255], hsv_bright: [103, 150, 130]~[130, 255, 255], open_kernel: 3, close_kernel: 5, min_area_ratio: 0.0006, max_area_ratio: 0.15, aspect_max: 4, fill_min: 0.6}
+[perception_node-1] [WARN] [1791857146.814983980] [perception_node]: 영상 수신 없음 — 카메라 노드·image_topic·QoS를 확인한다
+[perception_node-1] [WARN] [1791857147.815042227] [perception_node]: 영상 수신 없음 — 카메라 노드·image_topic·QoS를 확인한다
+[perception_node-1] [WARN] [1791857148.814890887] [perception_node]: 영상 수신 없음 — 카메라 노드·image_topic·QoS를 확인한다
+[perception_node-1] [WARN] [1791857149.814874189] [perception_node]: 영상 수신 없음 — 카메라 노드·image_topic·QoS를 확인한다
+[perception_node-1] [WARN] [1791857150.814877451] [perception_node]: 영상 수신 없음 — 카메라 노드·image_topic·QoS를 확인한다
+[perception_node-1] [WARN] [1791857151.815055863] [perception_node]: 영상 수신 없음 — 카메라 노드·image_topic·QoS를 확인한다
+[perception_node-1] [WARN] [1791857152.814954428] [perception_node]: 영상 수신 없음 — 카메라 노드·image_topic·QoS를 확인한다
+[dynamixel_move_node-2] [INFO] [1791857153.705155917] [dynamixel_move_node]: FSM IDLE -> TRACKING
+[dynamixel_controller-3] [ERROR] [1791857153.706520370] [dynamixel_controller]: serial open /dev/opencr: No such file or directory
+[perception_node-1] [INFO] [1791857153.815010889] [perception_node]: fps 2.0 | proc 2.1 ms | age 579218026 ms | detected 2/2 | bbox x=247 y=189 w=39 h=75 | center (266,226) ex=-0.169 ey=-0.058 area=0.0092 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[perception_node-1] [INFO] [1791857154.815023450] [perception_node]: fps 15.0 | proc 1.2 ms | age 579218034 ms | detected 15/15 | bbox x=245 y=190 w=38 h=76 | center (264,228) ex=-0.177 ey=-0.052 area=0.0090 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[dynamixel_controller-3] [ERROR] [1791857155.770310546] [dynamixel_controller]: serial open /dev/opencr: No such file or directory
+[perception_node-1] [INFO] [1791857155.815291237] [perception_node]: fps 15.0 | proc 1.2 ms | age 579218035 ms | detected 15/15 | bbox x=248 y=190 w=38 h=76 | center (266,228) ex=-0.167 ey=-0.052 area=0.0090 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[perception_node-1] [INFO] [1791857156.815024368] [perception_node]: fps 15.0 | proc 1.3 ms | age 579218036 ms | detected 15/15 | bbox x=255 y=191 w=38 h=75 | center (274,228) ex=-0.145 ey=-0.050 area=0.0089 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[dynamixel_controller-3] [ERROR] [1791857157.771401912] [dynamixel_controller]: serial open /dev/opencr: No such file or directory
+[perception_node-1] [INFO] [1791857157.815094889] [perception_node]: fps 15.0 | proc 1.2 ms | age 579218035 ms | detected 15/15 | bbox x=264 y=198 w=39 h=75 | center (283,235) ex=-0.116 ey=-0.021 area=0.0092 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[perception_node-1] [INFO] [1791857158.815139223] [perception_node]: fps 15.0 | proc 1.2 ms | age 579218035 ms | detected 15/15 | bbox x=276 y=213 w=38 h=75 | center (294,250) ex=-0.080 ey=+0.042 area=0.0089 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[perception_node-1] [INFO] [1791857159.814964725] [perception_node]: fps 15.0 | proc 1.2 ms | age 579218033 ms | detected 15/15 | bbox x=287 y=216 w=38 h=76 | center (306,254) ex=-0.045 ey=+0.056 area=0.0090 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[dynamixel_controller-3] [ERROR] [1791857159.836454800] [dynamixel_controller]: serial open /dev/opencr: No such file or directory
+[perception_node-1] [INFO] [1791857160.815011752] [perception_node]: fps 15.0 | proc 1.2 ms | age 579218032 ms | detected 15/15 | bbox x=296 y=218 w=38 h=75 | center (314,255) ex=-0.017 ey=+0.062 area=0.0089 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[perception_node-1] [INFO] [1791857161.814930495] [perception_node]: fps 15.0 | proc 1.2 ms | age 579218035 ms | detected 15/15 | bbox x=314 y=219 w=38 h=76 | center (332,256) ex=+0.039 ey=+0.069 area=0.0090 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[dynamixel_controller-3] [ERROR] [1791857161.904195563] [dynamixel_controller]: serial open /dev/opencr: No such file or directory
+[perception_node-1] [INFO] [1791857162.814960280] [perception_node]: fps 15.0 | proc 1.2 ms | age 579218036 ms | detected 15/15 | bbox x=329 y=219 w=38 h=75 | center (348,256) ex=+0.086 ey=+0.067 area=0.0089 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[perception_node-1] [INFO] [1791857163.815017476] [perception_node]: fps 15.0 | proc 1.2 ms | age 579218034 ms | detected 15/15 | bbox x=340 y=217 w=39 h=75 | center (359,254) ex=+0.122 ey=+0.058 area=0.0092 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[dynamixel_controller-3] [ERROR] [1791857163.970588678] [dynamixel_controller]: serial open /dev/opencr: No such file or directory
+[perception_node-1] [INFO] [1791857164.814983508] [perception_node]: fps 15.0 | proc 1.2 ms | age 579218036 ms | detected 15/15 | bbox x=351 y=215 w=38 h=75 | center (370,252) ex=+0.155 ey=+0.050 area=0.0089 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[perception_node-1] [INFO] [1791857165.815131538] [perception_node]: fps 15.0 | proc 1.2 ms | age 579218034 ms | detected 15/15 | bbox x=359 y=215 w=38 h=75 | center (378,252) ex=+0.180 ey=+0.050 area=0.0089 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[dynamixel_controller-3] [ERROR] [1791857166.036253894] [dynamixel_controller]: serial open /dev/opencr: No such file or directory
+[perception_node-1] [INFO] [1791857166.814945655] [perception_node]: fps 15.0 | proc 1.3 ms | age 579218035 ms | detected 15/15 | bbox x=365 y=215 w=38 h=75 | center (384,252) ex=+0.198 ey=+0.050 area=0.0089 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[perception_node-1] [INFO] [1791857167.814857562] [perception_node]: fps 15.0 | proc 1.2 ms | age 579218035 ms | detected 15/15 | bbox x=369 y=209 w=38 h=76 | center (388,246) ex=+0.211 ey=+0.027 area=0.0090 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[dynamixel_controller-3] [ERROR] [1791857168.036680714] [dynamixel_controller]: serial open /dev/opencr: No such file or directory
+[perception_node-1] [INFO] [1791857168.814877476] [perception_node]: fps 15.0 | proc 1.1 ms | age 579218036 ms | detected 9/15 | 미검출 (탈락 {})
+[dynamixel_move_node-2] [INFO] [1791857168.881583185] [dynamixel_move_node]: FSM TRACKING -> LOST
+[perception_node-1] [INFO] [1791857169.814894400] [perception_node]: fps 15.0 | proc 1.1 ms | age 579218036 ms | detected 0/15 | 미검출 (탈락 {})
+[perception_node-1] [INFO] [1791857170.814965096] [perception_node]: fps 15.0 | proc 1.1 ms | age 579218036 ms | detected 0/15 | 미검출 (탈락 {})
+[dynamixel_move_node-2] [INFO] [1791857171.436126847] [dynamixel_move_node]: FSM LOST -> TRACKING
+[dynamixel_controller-3] [ERROR] [1791857171.436692384] [dynamixel_controller]: serial open /dev/opencr: No such file or directory
+[perception_node-1] [INFO] [1791857171.814867555] [perception_node]: fps 15.0 | proc 1.1 ms | age 579218034 ms | detected 6/15 | bbox x=462 y=156 w=38 h=75 | center (480,193) ex=+0.502 ey=-0.196 area=0.0089 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[perception_node-1] [INFO] [1791857172.814865475] [perception_node]: fps 15.0 | proc 1.1 ms | age 579218035 ms | detected 15/15 | bbox x=398 y=182 w=38 h=75 | center (416,219) ex=+0.302 ey=-0.087 area=0.0089 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[dynamixel_controller-3] [ERROR] [1791857173.436852209] [dynamixel_controller]: serial open /dev/opencr: No such file or directory
+[perception_node-1] [INFO] [1791857173.814957227] [perception_node]: fps 15.0 | proc 1.1 ms | age 579218034 ms | detected 15/15 | bbox x=362 y=188 w=38 h=75 | center (380,225) ex=+0.189 ey=-0.062 area=0.0089 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[perception_node-1] [INFO] [1791857174.814877575] [perception_node]: fps 15.0 | proc 1.1 ms | age 579218035 ms | detected 15/15 | bbox x=337 y=190 w=38 h=75 | center (356,227) ex=+0.111 ey=-0.054 area=0.0089 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[dynamixel_controller-3] [ERROR] [1791857175.502377503] [dynamixel_controller]: serial open /dev/opencr: No such file or directory
+[perception_node-1] [INFO] [1791857175.814860001] [perception_node]: fps 15.0 | proc 1.1 ms | age 579218034 ms | detected 15/15 | bbox x=317 y=190 w=38 h=76 | center (336,228) ex=+0.048 ey=-0.052 area=0.0090 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[perception_node-1] [INFO] [1791857176.815054888] [perception_node]: fps 15.0 | proc 1.1 ms | age 579218035 ms | detected 15/15 | bbox x=305 y=192 w=39 h=75 | center (324,229) ex=+0.013 ey=-0.046 area=0.0092 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[dynamixel_controller-3] [ERROR] [1791857177.769647158] [dynamixel_controller]: serial open /dev/opencr: No such file or directory
+[perception_node-1] [INFO] [1791857177.814990556] [perception_node]: fps 15.0 | proc 1.1 ms | age 579218036 ms | detected 15/15 | bbox x=285 y=196 w=38 h=76 | center (304,234) ex=-0.052 ey=-0.027 area=0.0090 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[perception_node-1] [INFO] [1791857178.814971335] [perception_node]: fps 15.0 | proc 1.1 ms | age 579218035 ms | detected 15/15 | bbox x=271 y=209 w=39 h=76 | center (290,246) ex=-0.094 ey=+0.027 area=0.0093 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[dynamixel_controller-3] [ERROR] [1791857179.770183246] [dynamixel_controller]: serial open /dev/opencr: No such file or directory
+[perception_node-1] [INFO] [1791857179.814952117] [perception_node]: fps 15.0 | proc 1.1 ms | age 579218036 ms | detected 15/15 | bbox x=260 y=216 w=38 h=75 | center (278,253) ex=-0.130 ey=+0.054 area=0.0089 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[perception_node-1] [INFO] [1791857180.814867213] [perception_node]: fps 13.0 | proc 1.1 ms | age 579218035 ms | detected 13/13 | bbox x=251 y=217 w=38 h=76 | center (270,254) ex=-0.158 ey=+0.060 area=0.0090 | BGR=[200, 90, 20] HSV=[108, 229, 200]
+[dynamixel_move_node-2] [INFO] [1791857181.181605005] [dynamixel_move_node]: FSM TRACKING -> LOST
+[perception_node-1] [WARN] [1791857181.814959670] [perception_node]: 영상 수신 없음 — 카메라 노드·image_topic·QoS를 확인한다
+[perception_node-1] [WARN] [1791857182.814957810] [perception_node]: 영상 수신 없음 — 카메라 노드·image_topic·QoS를 확인한다
+Duration:          32.913305137s
+Topic information: Topic: /camera/camera/color/image_raw | Type: sensor_msgs/msg/Image | Count: 405 | Serialization Format: cdr
+                   Topic: /motor_cmd | Type: sensor_msgs/msg/JointState | Count: 334 | Serialization Format: cdr
+                   Topic: /target | Type: geometry_msgs/msg/PointStamped | Count: 405 | Serialization Format: cdr
+                   Topic: /tracking_status | Type: std_msgs/msg/String | Count: 38 | Serialization Format: cdr

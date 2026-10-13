@@ -5,6 +5,7 @@
   python3 src/run_detector.py                                   # 카메라 0번, realsense.yaml
   python3 src/run_detector.py --params config/realsense_tuned.yaml
   python3 src/run_detector.py --source ros2_ws/src/realsense/test/data/dim_backlit_20261002.png --no-gui
+  python3 src/run_detector.py --source <이미지> --no-gui --save results/detection/real_d435
 """
 import argparse
 import time
@@ -44,6 +45,7 @@ def main():
     ap.add_argument("--params", default=str(DEFAULT_PARAMS))
     ap.add_argument("--camera-info", default=str(DEFAULT_CAMERA_INFO))
     ap.add_argument("--no-gui", action="store_true", help="창 없이 결과만 출력")
+    ap.add_argument("--save", help="검출 화면(원본 | 마스크)을 저장할 폴더")
     args = ap.parse_args()
 
     cfg = DetectorConfig.load(args.params)
@@ -70,9 +72,14 @@ def main():
         if n % 30 == 0:
             print(f"FPS: {30 / (time.time() - t0):.1f}")
             t0 = time.time()
+        screen = np.hstack([draw(img, r), cv2.cvtColor(mask, cv2.COLOR_GRAY2BGR)])
+        if args.save:
+            Path(args.save).mkdir(parents=True, exist_ok=True)
+            stem = Path(args.source).stem if not args.source.isdigit() else "camera"
+            cv2.imwrite(str(Path(args.save) / f"{stem}_{n:04d}.jpg"), screen)
         if args.no_gui:
             continue
-        cv2.imshow("detector", np.hstack([draw(img, r), cv2.cvtColor(mask, cv2.COLOR_GRAY2BGR)]))
+        cv2.imshow("detector", screen)
         still = Path(args.source).suffix.lower() in (".png", ".jpg", ".jpeg", ".bmp")
         if cv2.waitKey(0 if still else 1) & 0xFF in (ord("q"), 27):
             break

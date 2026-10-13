@@ -1,0 +1,682 @@
+# bag: scene7  (시간 = bag 기록 시각 기준 초)
+# image: 원본 영상 stamp | target: ex ey area | status: 상태 | motor: 이름=Δrad
+    0.000 motor   pan_joint=+0.0051 tilt_joint=-0.0034
+    0.078 motor   pan_joint=+0.0051 tilt_joint=-0.0034
+    0.145 motor   pan_joint=+0.0052 tilt_joint=-0.0032
+    0.400 motor   pan_joint=+0.0052 tilt_joint=-0.0032
+    0.400 motor   pan_joint=+0.0052 tilt_joint=-0.0032
+    0.401 motor   pan_joint=+0.0052 tilt_joint=-0.0031
+    0.412 motor   pan_joint=+0.0053 tilt_joint=-0.0031
+    0.444 status  TRACKING
+    0.477 image   stamp=1791277904.318 640x480 rgb8
+    0.479 motor   pan_joint=+0.0053 tilt_joint=+0.0000
+    0.544 image   stamp=1791277904.385 640x480 rgb8
+    0.546 motor   pan_joint=+0.0053 tilt_joint=-0.0034
+    0.610 image   stamp=1791277904.452 640x480 rgb8
+    0.612 motor   pan_joint=+0.0053 tilt_joint=-0.0032
+    0.677 image   stamp=1791277904.518 640x480 rgb8
+    0.678 motor   pan_joint=+0.0053 tilt_joint=-0.0031
+    0.743 image   stamp=1791277904.585 640x480 rgb8
+    0.745 motor   pan_joint=+0.0053 tilt_joint=+0.0000
+    0.810 image   stamp=1791277904.652 640x480 rgb8
+    0.812 motor   pan_joint=+0.0053 tilt_joint=-0.0034
+    0.877 image   stamp=1791277904.718 640x480 rgb8
+    0.878 motor   pan_joint=+0.0053 tilt_joint=-0.0032
+    0.943 image   stamp=1791277904.785 640x480 rgb8
+    0.945 motor   pan_joint=+0.0053 tilt_joint=+0.0000
+    0.999 image   stamp=1791277904.852 640x480 rgb8
+    1.000 target  stamp=1791277904.852 ex=-0.177 ey=-0.054 area=0.0093
+    1.002 motor   pan_joint=+0.0053 tilt_joint=-0.0032
+    1.077 image   stamp=1791277904.918 640x480 rgb8
+    1.078 target  stamp=1791277904.918 ex=-0.177 ey=-0.052 area=0.0094
+    1.079 motor   pan_joint=+0.0053 tilt_joint=-0.0031
+    1.143 image   stamp=1791277904.985 640x480 rgb8
+    1.145 target  stamp=1791277904.985 ex=-0.177 ey=-0.050 area=0.0093
+    1.146 motor   pan_joint=+0.0053 tilt_joint=+0.0000
+    1.199 image   stamp=1791277905.052 640x480 rgb8
+    1.200 target  stamp=1791277905.052 ex=-0.177 ey=-0.054 area=0.0093
+    1.201 motor   pan_joint=+0.0053 tilt_joint=-0.0032
+    1.276 image   stamp=1791277905.118 640x480 rgb8
+    1.278 target  stamp=1791277905.118 ex=-0.177 ey=-0.050 area=0.0093
+    1.279 motor   pan_joint=+0.0053 tilt_joint=+0.0000
+    1.343 image   stamp=1791277905.185 640x480 rgb8
+    1.345 target  stamp=1791277905.185 ex=-0.175 ey=-0.054 area=0.0095
+    1.346 motor   pan_joint=+0.0052 tilt_joint=-0.0032
+    1.409 image   stamp=1791277905.252 640x480 rgb8
+    1.411 target  stamp=1791277905.252 ex=-0.173 ey=-0.052 area=0.0094
+    1.412 motor   pan_joint=+0.0052 tilt_joint=-0.0031
+    1.444 status  TRACKING
+    1.476 image   stamp=1791277905.318 640x480 rgb8
+    1.477 target  stamp=1791277905.318 ex=-0.173 ey=-0.048 area=0.0094
+    1.478 motor   pan_joint=+0.0052 tilt_joint=+0.0000
+    1.543 image   stamp=1791277905.385 640x480 rgb8
+    1.545 target  stamp=1791277905.385 ex=-0.173 ey=-0.050 area=0.0093
+    1.545 motor   pan_joint=+0.0052 tilt_joint=+0.0000
+    1.610 image   stamp=1791277905.452 640x480 rgb8
+    1.611 target  stamp=1791277905.452 ex=-0.173 ey=-0.054 area=0.0093
+    1.611 motor   pan_joint=+0.0052 tilt_joint=-0.0032
+    1.676 image   stamp=1791277905.518 640x480 rgb8
+    1.678 target  stamp=1791277905.518 ex=-0.172 ey=-0.050 area=0.0095
+    1.678 motor   pan_joint=+0.0052 tilt_joint=+0.0000
+    1.743 image   stamp=1791277905.585 640x480 rgb8
+    1.745 target  stamp=1791277905.585 ex=-0.170 ey=-0.052 area=0.0094
+    1.745 motor   pan_joint=+0.0051 tilt_joint=-0.0031
+    1.811 image   stamp=1791277905.652 640x480 rgb8
+    1.812 target  stamp=1791277905.652 ex=-0.170 ey=-0.048 area=0.0094
+    1.813 motor   pan_joint=+0.0051 tilt_joint=+0.0000
+    1.876 image   stamp=1791277905.718 640x480 rgb8
+    1.878 target  stamp=1791277905.718 ex=-0.169 ey=-0.050 area=0.0095
+    1.878 motor   pan_joint=+0.0051 tilt_joint=+0.0000
+    1.943 image   stamp=1791277905.785 640x480 rgb8
+    1.944 target  stamp=1791277905.785 ex=-0.167 ey=-0.052 area=0.0094
+    1.944 motor   pan_joint=+0.0050 tilt_joint=-0.0031
+    2.010 image   stamp=1791277905.852 640x480 rgb8
+    2.011 target  stamp=1791277905.852 ex=-0.167 ey=-0.048 area=0.0094
+    2.012 motor   pan_joint=+0.0050 tilt_joint=+0.0000
+    2.077 image   stamp=1791277905.918 640x480 rgb8
+    2.078 target  stamp=1791277905.918 ex=-0.166 ey=-0.050 area=0.0095
+    2.079 motor   pan_joint=+0.0050 tilt_joint=+0.0000
+    2.143 image   stamp=1791277905.985 640x480 rgb8
+    2.145 target  stamp=1791277905.985 ex=-0.164 ey=-0.050 area=0.0093
+    2.145 motor   pan_joint=+0.0049 tilt_joint=+0.0000
+    2.211 image   stamp=1791277906.052 640x480 rgb8
+    2.212 target  stamp=1791277906.052 ex=-0.164 ey=-0.052 area=0.0094
+    2.212 motor   pan_joint=+0.0049 tilt_joint=-0.0031
+    2.277 image   stamp=1791277906.118 640x480 rgb8
+    2.278 target  stamp=1791277906.118 ex=-0.161 ey=-0.048 area=0.0094
+    2.278 motor   pan_joint=+0.0048 tilt_joint=+0.0000
+    2.343 image   stamp=1791277906.185 640x480 rgb8
+    2.344 target  stamp=1791277906.185 ex=-0.161 ey=-0.048 area=0.0094
+    2.344 motor   pan_joint=+0.0048 tilt_joint=+0.0000
+    2.411 image   stamp=1791277906.252 640x480 rgb8
+    2.412 target  stamp=1791277906.252 ex=-0.158 ey=-0.048 area=0.0094
+    2.412 motor   pan_joint=+0.0047 tilt_joint=+0.0000
+    2.444 status  TRACKING
+    2.477 image   stamp=1791277906.318 640x480 rgb8
+    2.478 target  stamp=1791277906.318 ex=-0.158 ey=-0.050 area=0.0093
+    2.478 motor   pan_joint=+0.0047 tilt_joint=+0.0000
+    2.545 image   stamp=1791277906.385 640x480 rgb8
+    2.546 target  stamp=1791277906.385 ex=-0.156 ey=-0.050 area=0.0095
+    2.546 motor   pan_joint=+0.0047 tilt_joint=+0.0000
+    2.611 image   stamp=1791277906.452 640x480 rgb8
+    2.612 target  stamp=1791277906.452 ex=-0.155 ey=-0.050 area=0.0093
+    2.612 motor   pan_joint=+0.0046 tilt_joint=+0.0000
+    2.677 image   stamp=1791277906.518 640x480 rgb8
+    2.678 target  stamp=1791277906.518 ex=-0.153 ey=-0.050 area=0.0095
+    2.679 motor   pan_joint=+0.0046 tilt_joint=+0.0000
+    2.744 image   stamp=1791277906.585 640x480 rgb8
+    2.745 target  stamp=1791277906.585 ex=-0.152 ey=-0.050 area=0.0093
+    2.745 motor   pan_joint=+0.0045 tilt_joint=+0.0000
+    2.811 image   stamp=1791277906.652 640x480 rgb8
+    2.812 target  stamp=1791277906.652 ex=-0.148 ey=-0.050 area=0.0093
+    2.812 motor   pan_joint=+0.0045 tilt_joint=+0.0000
+    2.876 image   stamp=1791277906.718 640x480 rgb8
+    2.877 target  stamp=1791277906.718 ex=-0.148 ey=-0.050 area=0.0093
+    2.878 motor   pan_joint=+0.0045 tilt_joint=+0.0000
+    2.944 image   stamp=1791277906.785 640x480 rgb8
+    2.946 target  stamp=1791277906.785 ex=-0.145 ey=-0.048 area=0.0094
+    2.946 motor   pan_joint=+0.0044 tilt_joint=+0.0000
+    3.010 image   stamp=1791277906.852 640x480 rgb8
+    3.012 target  stamp=1791277906.852 ex=-0.145 ey=-0.048 area=0.0094
+    3.012 motor   pan_joint=+0.0044 tilt_joint=+0.0000
+    3.077 image   stamp=1791277906.918 640x480 rgb8
+    3.078 target  stamp=1791277906.918 ex=-0.142 ey=-0.046 area=0.0093
+    3.078 motor   pan_joint=+0.0043 tilt_joint=+0.0000
+    3.143 image   stamp=1791277906.985 640x480 rgb8
+    3.144 target  stamp=1791277906.985 ex=-0.141 ey=-0.046 area=0.0095
+    3.144 motor   pan_joint=+0.0042 tilt_joint=+0.0000
+    3.211 image   stamp=1791277907.052 640x480 rgb8
+    3.213 target  stamp=1791277907.052 ex=-0.139 ey=-0.044 area=0.0094
+    3.213 motor   pan_joint=+0.0042 tilt_joint=+0.0000
+    3.277 image   stamp=1791277907.118 640x480 rgb8
+    3.278 target  stamp=1791277907.118 ex=-0.136 ey=-0.044 area=0.0094
+    3.278 motor   pan_joint=+0.0041 tilt_joint=+0.0000
+    3.343 image   stamp=1791277907.185 640x480 rgb8
+    3.345 target  stamp=1791277907.185 ex=-0.136 ey=-0.042 area=0.0093
+    3.345 motor   pan_joint=+0.0041 tilt_joint=+0.0000
+    3.411 image   stamp=1791277907.252 640x480 rgb8
+    3.412 target  stamp=1791277907.252 ex=-0.133 ey=-0.040 area=0.0094
+    3.412 motor   pan_joint=+0.0040 tilt_joint=+0.0000
+    3.444 status  TRACKING
+    3.477 image   stamp=1791277907.318 640x480 rgb8
+    3.478 target  stamp=1791277907.318 ex=-0.131 ey=-0.037 area=0.0095
+    3.479 motor   pan_joint=+0.0039 tilt_joint=+0.0000
+    3.544 image   stamp=1791277907.385 640x480 rgb8
+    3.545 target  stamp=1791277907.385 ex=-0.130 ey=-0.035 area=0.0094
+    3.545 motor   pan_joint=+0.0039 tilt_joint=+0.0000
+    3.610 image   stamp=1791277907.452 640x480 rgb8
+    3.611 target  stamp=1791277907.452 ex=-0.127 ey=-0.033 area=0.0093
+    3.612 motor   pan_joint=+0.0038 tilt_joint=+0.0000
+    3.677 image   stamp=1791277907.518 640x480 rgb8
+    3.678 target  stamp=1791277907.518 ex=-0.125 ey=-0.031 area=0.0096
+    3.678 motor   pan_joint=+0.0037 tilt_joint=+0.0000
+    3.744 image   stamp=1791277907.585 640x480 rgb8
+    3.745 target  stamp=1791277907.585 ex=-0.123 ey=-0.029 area=0.0093
+    3.746 motor   pan_joint=+0.0037 tilt_joint=+0.0000
+    3.810 image   stamp=1791277907.652 640x480 rgb8
+    3.811 target  stamp=1791277907.652 ex=-0.120 ey=-0.025 area=0.0093
+    3.812 motor   pan_joint=+0.0036 tilt_joint=+0.0000
+    3.877 image   stamp=1791277907.718 640x480 rgb8
+    3.878 target  stamp=1791277907.718 ex=-0.117 ey=-0.023 area=0.0094
+    3.879 motor   pan_joint=+0.0035 tilt_joint=+0.0000
+    3.944 image   stamp=1791277907.785 640x480 rgb8
+    3.945 target  stamp=1791277907.785 ex=-0.116 ey=-0.021 area=0.0095
+    3.946 motor   pan_joint=+0.0035 tilt_joint=+0.0000
+    4.011 image   stamp=1791277907.852 640x480 rgb8
+    4.012 target  stamp=1791277907.852 ex=-0.114 ey=-0.017 area=0.0093
+    4.012 motor   pan_joint=+0.0034 tilt_joint=+0.0000
+    4.076 image   stamp=1791277907.918 640x480 rgb8
+    4.078 target  stamp=1791277907.918 ex=-0.111 ey=-0.015 area=0.0094
+    4.078 motor   pan_joint=+0.0033 tilt_joint=+0.0000
+    4.145 image   stamp=1791277907.985 640x480 rgb8
+    4.146 target  stamp=1791277907.985 ex=-0.109 ey=-0.010 area=0.0096
+    4.147 motor   pan_joint=+0.0033 tilt_joint=+0.0000
+    4.210 image   stamp=1791277908.052 640x480 rgb8
+    4.211 target  stamp=1791277908.052 ex=-0.108 ey=-0.006 area=0.0094
+    4.211 motor   pan_joint=+0.0032 tilt_joint=+0.0000
+    4.276 image   stamp=1791277908.118 640x480 rgb8
+    4.278 target  stamp=1791277908.118 ex=-0.105 ey=-0.002 area=0.0094
+    4.278 motor   pan_joint=+0.0031 tilt_joint=+0.0000
+    4.343 image   stamp=1791277908.185 640x480 rgb8
+    4.345 target  stamp=1791277908.185 ex=-0.102 ey=+0.002 area=0.0094
+    4.345 motor   pan_joint=+0.0030 tilt_joint=+0.0000
+    4.410 image   stamp=1791277908.252 640x480 rgb8
+    4.411 target  stamp=1791277908.252 ex=-0.100 ey=+0.004 area=0.0095
+    4.412 motor   pan_joint=+0.0030 tilt_joint=+0.0000
+    4.444 status  TRACKING
+    4.477 image   stamp=1791277908.318 640x480 rgb8
+    4.478 target  stamp=1791277908.318 ex=-0.098 ey=+0.008 area=0.0093
+    4.478 motor   pan_joint=+0.0030 tilt_joint=+0.0000
+    4.543 image   stamp=1791277908.385 640x480 rgb8
+    4.544 target  stamp=1791277908.385 ex=-0.095 ey=+0.015 area=0.0094
+    4.545 motor   pan_joint=+0.0029 tilt_joint=+0.0000
+    4.610 image   stamp=1791277908.452 640x480 rgb8
+    4.611 target  stamp=1791277908.452 ex=-0.092 ey=+0.019 area=0.0094
+    4.611 motor   pan_joint=+0.0028 tilt_joint=+0.0000
+    4.677 image   stamp=1791277908.518 640x480 rgb8
+    4.678 target  stamp=1791277908.518 ex=-0.089 ey=+0.023 area=0.0094
+    4.678 motor   pan_joint=+0.0027 tilt_joint=+0.0000
+    4.744 image   stamp=1791277908.585 640x480 rgb8
+    4.745 target  stamp=1791277908.585 ex=-0.087 ey=+0.027 area=0.0096
+    4.746 motor   pan_joint=+0.0026 tilt_joint=+0.0000
+    4.810 image   stamp=1791277908.652 640x480 rgb8
+    4.811 target  stamp=1791277908.652 ex=-0.086 ey=+0.033 area=0.0093
+    4.811 motor   pan_joint=+0.0026 tilt_joint=+0.0000
+    4.877 image   stamp=1791277908.718 640x480 rgb8
+    4.878 target  stamp=1791277908.718 ex=-0.083 ey=+0.037 area=0.0093
+    4.879 motor   pan_joint=+0.0025 tilt_joint=+0.0000
+    4.943 image   stamp=1791277908.785 640x480 rgb8
+    4.944 target  stamp=1791277908.785 ex=-0.080 ey=+0.042 area=0.0093
+    4.945 motor   pan_joint=+0.0024 tilt_joint=+0.0000
+    5.009 image   stamp=1791277908.852 640x480 rgb8
+    5.010 target  stamp=1791277908.852 ex=-0.077 ey=+0.048 area=0.0094
+    5.011 motor   pan_joint=+0.0023 tilt_joint=+0.0000
+    5.066 image   stamp=1791277908.918 640x480 rgb8
+    5.067 target  stamp=1791277908.918 ex=-0.075 ey=+0.052 area=0.0096
+    5.067 motor   pan_joint=+0.0022 tilt_joint=+0.0031
+    5.132 image   stamp=1791277908.985 640x480 rgb8
+    5.134 target  stamp=1791277908.985 ex=-0.072 ey=+0.052 area=0.0096
+    5.134 motor   pan_joint=+0.0022 tilt_joint=+0.0031
+    5.199 image   stamp=1791277909.052 640x480 rgb8
+    5.200 target  stamp=1791277909.052 ex=-0.070 ey=+0.052 area=0.0094
+    5.200 motor   pan_joint=+0.0021 tilt_joint=+0.0031
+    5.266 image   stamp=1791277909.118 640x480 rgb8
+    5.267 target  stamp=1791277909.118 ex=-0.067 ey=+0.052 area=0.0094
+    5.267 motor   pan_joint=+0.0020 tilt_joint=+0.0031
+    5.332 image   stamp=1791277909.185 640x480 rgb8
+    5.333 target  stamp=1791277909.185 ex=-0.064 ey=+0.052 area=0.0094
+    5.334 motor   pan_joint=+0.0019 tilt_joint=+0.0031
+    5.409 image   stamp=1791277909.252 640x480 rgb8
+    5.410 target  stamp=1791277909.252 ex=-0.061 ey=+0.052 area=0.0094
+    5.411 motor   pan_joint=+0.0018 tilt_joint=+0.0031
+    5.444 status  TRACKING
+    5.466 image   stamp=1791277909.318 640x480 rgb8
+    5.467 target  stamp=1791277909.318 ex=-0.058 ey=+0.052 area=0.0094
+    5.467 motor   pan_joint=+0.0017 tilt_joint=+0.0031
+    5.532 image   stamp=1791277909.385 640x480 rgb8
+    5.533 target  stamp=1791277909.385 ex=-0.056 ey=+0.052 area=0.0096
+    5.534 motor   pan_joint=+0.0017 tilt_joint=+0.0031
+    5.609 image   stamp=1791277909.452 640x480 rgb8
+    5.611 target  stamp=1791277909.452 ex=-0.055 ey=+0.052 area=0.0094
+    5.611 motor   pan_joint=+0.0016 tilt_joint=+0.0031
+    5.676 image   stamp=1791277909.518 640x480 rgb8
+    5.677 target  stamp=1791277909.518 ex=-0.052 ey=+0.052 area=0.0094
+    5.678 motor   pan_joint=+0.0015 tilt_joint=+0.0031
+    5.744 image   stamp=1791277909.585 640x480 rgb8
+    5.746 target  stamp=1791277909.585 ex=-0.048 ey=+0.052 area=0.0094
+    5.746 motor   pan_joint=+0.0000 tilt_joint=+0.0031
+    5.810 image   stamp=1791277909.652 640x480 rgb8
+    5.812 target  stamp=1791277909.652 ex=-0.048 ey=+0.052 area=0.0094
+    5.812 motor   pan_joint=+0.0000 tilt_joint=+0.0031
+    5.877 image   stamp=1791277909.718 640x480 rgb8
+    5.879 target  stamp=1791277909.718 ex=-0.047 ey=+0.054 area=0.0095
+    5.880 motor   pan_joint=+0.0000 tilt_joint=+0.0032
+    5.944 image   stamp=1791277909.785 640x480 rgb8
+    5.945 target  stamp=1791277909.785 ex=-0.045 ey=+0.054 area=0.0093
+    5.946 motor   pan_joint=+0.0000 tilt_joint=+0.0032
+    6.011 image   stamp=1791277909.852 640x480 rgb8
+    6.012 target  stamp=1791277909.852 ex=-0.045 ey=+0.054 area=0.0093
+    6.013 motor   pan_joint=+0.0000 tilt_joint=+0.0032
+    6.076 image   stamp=1791277909.918 640x480 rgb8
+    6.078 target  stamp=1791277909.918 ex=-0.044 ey=+0.056 area=0.0096
+    6.078 motor   pan_joint=+0.0000 tilt_joint=+0.0034
+    6.143 image   stamp=1791277909.985 640x480 rgb8
+    6.144 target  stamp=1791277909.985 ex=-0.042 ey=+0.056 area=0.0094
+    6.145 motor   pan_joint=+0.0000 tilt_joint=+0.0034
+    6.210 image   stamp=1791277910.052 640x480 rgb8
+    6.211 target  stamp=1791277910.052 ex=-0.042 ey=+0.056 area=0.0094
+    6.211 motor   pan_joint=+0.0000 tilt_joint=+0.0034
+    6.276 image   stamp=1791277910.118 640x480 rgb8
+    6.277 target  stamp=1791277910.118 ex=-0.039 ey=+0.056 area=0.0094
+    6.278 motor   pan_joint=+0.0000 tilt_joint=+0.0034
+    6.343 image   stamp=1791277910.185 640x480 rgb8
+    6.344 target  stamp=1791277910.185 ex=-0.039 ey=+0.058 area=0.0093
+    6.345 motor   pan_joint=+0.0000 tilt_joint=+0.0035
+    6.409 image   stamp=1791277910.252 640x480 rgb8
+    6.411 target  stamp=1791277910.252 ex=-0.036 ey=+0.058 area=0.0093
+    6.411 motor   pan_joint=+0.0000 tilt_joint=+0.0035
+    6.444 status  TRACKING
+    6.476 image   stamp=1791277910.318 640x480 rgb8
+    6.477 target  stamp=1791277910.318 ex=-0.034 ey=+0.058 area=0.0095
+    6.477 motor   pan_joint=+0.0000 tilt_joint=+0.0035
+    6.543 image   stamp=1791277910.385 640x480 rgb8
+    6.544 target  stamp=1791277910.385 ex=-0.033 ey=+0.058 area=0.0093
+    6.545 motor   pan_joint=+0.0000 tilt_joint=+0.0035
+    6.609 image   stamp=1791277910.452 640x480 rgb8
+    6.611 target  stamp=1791277910.452 ex=-0.030 ey=+0.060 area=0.0094
+    6.611 motor   pan_joint=+0.0000 tilt_joint=+0.0036
+    6.676 image   stamp=1791277910.518 640x480 rgb8
+    6.677 target  stamp=1791277910.518 ex=-0.028 ey=+0.060 area=0.0096
+    6.678 motor   pan_joint=+0.0000 tilt_joint=+0.0036
+    6.742 image   stamp=1791277910.585 640x480 rgb8
+    6.744 target  stamp=1791277910.585 ex=-0.027 ey=+0.060 area=0.0094
+    6.744 motor   pan_joint=+0.0000 tilt_joint=+0.0036
+    6.809 image   stamp=1791277910.652 640x480 rgb8
+    6.810 target  stamp=1791277910.652 ex=-0.023 ey=+0.062 area=0.0093
+    6.811 motor   pan_joint=+0.0000 tilt_joint=+0.0037
+    6.876 image   stamp=1791277910.718 640x480 rgb8
+    6.877 target  stamp=1791277910.718 ex=-0.020 ey=+0.062 area=0.0093
+    6.878 motor   pan_joint=+0.0000 tilt_joint=+0.0037
+    6.943 image   stamp=1791277910.785 640x480 rgb8
+    6.944 target  stamp=1791277910.785 ex=-0.017 ey=+0.062 area=0.0093
+    6.944 motor   pan_joint=+0.0000 tilt_joint=+0.0037
+    7.010 image   stamp=1791277910.852 640x480 rgb8
+    7.011 target  stamp=1791277910.852 ex=-0.014 ey=+0.062 area=0.0093
+    7.011 motor   pan_joint=+0.0000 tilt_joint=+0.0037
+    7.077 image   stamp=1791277910.918 640x480 rgb8
+    7.078 target  stamp=1791277910.918 ex=-0.011 ey=+0.065 area=0.0094
+    7.078 motor   pan_joint=+0.0000 tilt_joint=+0.0039
+    7.143 image   stamp=1791277910.985 640x480 rgb8
+    7.144 target  stamp=1791277910.985 ex=-0.008 ey=+0.065 area=0.0094
+    7.145 motor   pan_joint=+0.0000 tilt_joint=+0.0039
+    7.211 image   stamp=1791277911.052 640x480 rgb8
+    7.212 target  stamp=1791277911.052 ex=-0.005 ey=+0.065 area=0.0094
+    7.213 motor   pan_joint=+0.0000 tilt_joint=+0.0039
+    7.277 image   stamp=1791277911.118 640x480 rgb8
+    7.278 target  stamp=1791277911.118 ex=-0.002 ey=+0.065 area=0.0094
+    7.279 motor   pan_joint=+0.0000 tilt_joint=+0.0039
+    7.343 image   stamp=1791277911.185 640x480 rgb8
+    7.344 target  stamp=1791277911.185 ex=+0.002 ey=+0.065 area=0.0094
+    7.344 motor   pan_joint=+0.0000 tilt_joint=+0.0039
+    7.409 image   stamp=1791277911.252 640x480 rgb8
+    7.411 target  stamp=1791277911.252 ex=+0.005 ey=+0.067 area=0.0093
+    7.411 motor   pan_joint=+0.0000 tilt_joint=+0.0040
+    7.444 status  TRACKING
+    7.477 image   stamp=1791277911.318 640x480 rgb8
+    7.478 target  stamp=1791277911.318 ex=+0.009 ey=+0.067 area=0.0095
+    7.479 motor   pan_joint=+0.0000 tilt_joint=+0.0040
+    7.543 image   stamp=1791277911.385 640x480 rgb8
+    7.545 target  stamp=1791277911.385 ex=+0.014 ey=+0.067 area=0.0093
+    7.545 motor   pan_joint=+0.0000 tilt_joint=+0.0040
+    7.609 image   stamp=1791277911.452 640x480 rgb8
+    7.611 target  stamp=1791277911.452 ex=+0.017 ey=+0.067 area=0.0093
+    7.611 motor   pan_joint=+0.0000 tilt_joint=+0.0040
+    7.676 image   stamp=1791277911.518 640x480 rgb8
+    7.678 target  stamp=1791277911.518 ex=+0.020 ey=+0.067 area=0.0093
+    7.679 motor   pan_joint=+0.0000 tilt_joint=+0.0040
+    7.743 image   stamp=1791277911.585 640x480 rgb8
+    7.744 target  stamp=1791277911.585 ex=+0.025 ey=+0.067 area=0.0095
+    7.745 motor   pan_joint=+0.0000 tilt_joint=+0.0040
+    7.809 image   stamp=1791277911.652 640x480 rgb8
+    7.811 target  stamp=1791277911.652 ex=+0.030 ey=+0.067 area=0.0093
+    7.812 motor   pan_joint=+0.0000 tilt_joint=+0.0040
+    7.876 image   stamp=1791277911.718 640x480 rgb8
+    7.878 target  stamp=1791277911.718 ex=+0.034 ey=+0.067 area=0.0095
+    7.878 motor   pan_joint=+0.0000 tilt_joint=+0.0040
+    7.944 image   stamp=1791277911.785 640x480 rgb8
+    7.946 target  stamp=1791277911.785 ex=+0.039 ey=+0.069 area=0.0094
+    7.946 motor   pan_joint=+0.0000 tilt_joint=+0.0041
+    8.011 image   stamp=1791277911.852 640x480 rgb8
+    8.013 target  stamp=1791277911.852 ex=+0.044 ey=+0.069 area=0.0096
+    8.013 motor   pan_joint=+0.0000 tilt_joint=+0.0041
+    8.076 image   stamp=1791277911.918 640x480 rgb8
+    8.078 target  stamp=1791277911.918 ex=+0.048 ey=+0.069 area=0.0094
+    8.078 motor   pan_joint=+0.0000 tilt_joint=+0.0041
+    8.143 image   stamp=1791277911.985 640x480 rgb8
+    8.144 target  stamp=1791277911.985 ex=+0.053 ey=+0.069 area=0.0096
+    8.145 motor   pan_joint=-0.0016 tilt_joint=+0.0041
+    8.210 image   stamp=1791277912.052 640x480 rgb8
+    8.211 target  stamp=1791277912.052 ex=+0.055 ey=+0.069 area=0.0094
+    8.212 motor   pan_joint=-0.0016 tilt_joint=+0.0041
+    8.277 image   stamp=1791277912.118 640x480 rgb8
+    8.278 target  stamp=1791277912.118 ex=+0.058 ey=+0.067 area=0.0093
+    8.278 motor   pan_joint=-0.0017 tilt_joint=+0.0040
+    8.343 image   stamp=1791277912.185 640x480 rgb8
+    8.345 target  stamp=1791277912.185 ex=+0.061 ey=+0.069 area=0.0094
+    8.345 motor   pan_joint=-0.0018 tilt_joint=+0.0041
+    8.410 image   stamp=1791277912.252 640x480 rgb8
+    8.412 target  stamp=1791277912.252 ex=+0.064 ey=+0.067 area=0.0093
+    8.412 motor   pan_joint=-0.0019 tilt_joint=+0.0040
+    8.444 status  TRACKING
+    8.478 image   stamp=1791277912.318 640x480 rgb8
+    8.479 target  stamp=1791277912.318 ex=+0.067 ey=+0.069 area=0.0094
+    8.480 motor   pan_joint=-0.0020 tilt_joint=+0.0041
+    8.544 image   stamp=1791277912.385 640x480 rgb8
+    8.545 target  stamp=1791277912.385 ex=+0.070 ey=+0.067 area=0.0093
+    8.545 motor   pan_joint=-0.0021 tilt_joint=+0.0040
+    8.610 image   stamp=1791277912.452 640x480 rgb8
+    8.612 target  stamp=1791277912.452 ex=+0.072 ey=+0.067 area=0.0095
+    8.612 motor   pan_joint=-0.0022 tilt_joint=+0.0040
+    8.676 image   stamp=1791277912.518 640x480 rgb8
+    8.678 target  stamp=1791277912.518 ex=+0.073 ey=+0.067 area=0.0093
+    8.679 motor   pan_joint=-0.0022 tilt_joint=+0.0040
+    8.743 image   stamp=1791277912.585 640x480 rgb8
+    8.745 target  stamp=1791277912.585 ex=+0.077 ey=+0.067 area=0.0093
+    8.745 motor   pan_joint=-0.0023 tilt_joint=+0.0040
+    8.800 image   stamp=1791277912.652 640x480 rgb8
+    8.802 target  stamp=1791277912.652 ex=+0.080 ey=+0.067 area=0.0093
+    8.802 motor   pan_joint=-0.0024 tilt_joint=+0.0040
+    8.877 image   stamp=1791277912.718 640x480 rgb8
+    8.878 target  stamp=1791277912.718 ex=+0.083 ey=+0.067 area=0.0093
+    8.878 motor   pan_joint=-0.0025 tilt_joint=+0.0040
+    8.943 image   stamp=1791277912.785 640x480 rgb8
+    8.945 target  stamp=1791277912.785 ex=+0.086 ey=+0.067 area=0.0093
+    8.945 motor   pan_joint=-0.0026 tilt_joint=+0.0040
+    9.010 image   stamp=1791277912.852 640x480 rgb8
+    9.011 target  stamp=1791277912.852 ex=+0.087 ey=+0.067 area=0.0095
+    9.012 motor   pan_joint=-0.0026 tilt_joint=+0.0040
+    9.077 image   stamp=1791277912.918 640x480 rgb8
+    9.078 target  stamp=1791277912.918 ex=+0.089 ey=+0.067 area=0.0093
+    9.079 motor   pan_joint=-0.0027 tilt_joint=+0.0040
+    9.143 image   stamp=1791277912.985 640x480 rgb8
+    9.144 target  stamp=1791277912.985 ex=+0.092 ey=+0.065 area=0.0094
+    9.145 motor   pan_joint=-0.0028 tilt_joint=+0.0039
+    9.210 image   stamp=1791277913.052 640x480 rgb8
+    9.212 target  stamp=1791277913.052 ex=+0.095 ey=+0.065 area=0.0094
+    9.212 motor   pan_joint=-0.0029 tilt_joint=+0.0039
+    9.276 image   stamp=1791277913.118 640x480 rgb8
+    9.278 target  stamp=1791277913.118 ex=+0.098 ey=+0.065 area=0.0094
+    9.279 motor   pan_joint=-0.0030 tilt_joint=+0.0039
+    9.343 image   stamp=1791277913.185 640x480 rgb8
+    9.344 target  stamp=1791277913.185 ex=+0.100 ey=+0.065 area=0.0096
+    9.345 motor   pan_joint=-0.0030 tilt_joint=+0.0039
+    9.410 image   stamp=1791277913.252 640x480 rgb8
+    9.411 target  stamp=1791277913.252 ex=+0.102 ey=+0.065 area=0.0094
+    9.412 motor   pan_joint=-0.0030 tilt_joint=+0.0039
+    9.444 status  TRACKING
+    9.477 image   stamp=1791277913.318 640x480 rgb8
+    9.478 target  stamp=1791277913.318 ex=+0.105 ey=+0.062 area=0.0093
+    9.479 motor   pan_joint=-0.0031 tilt_joint=+0.0037
+    9.543 image   stamp=1791277913.385 640x480 rgb8
+    9.545 target  stamp=1791277913.385 ex=+0.108 ey=+0.062 area=0.0093
+    9.545 motor   pan_joint=-0.0032 tilt_joint=+0.0037
+    9.610 image   stamp=1791277913.452 640x480 rgb8
+    9.611 target  stamp=1791277913.452 ex=+0.111 ey=+0.062 area=0.0093
+    9.612 motor   pan_joint=-0.0033 tilt_joint=+0.0037
+    9.678 image   stamp=1791277913.518 640x480 rgb8
+    9.679 target  stamp=1791277913.518 ex=+0.113 ey=+0.062 area=0.0095
+    9.679 motor   pan_joint=-0.0034 tilt_joint=+0.0037
+    9.744 image   stamp=1791277913.585 640x480 rgb8
+    9.746 target  stamp=1791277913.585 ex=+0.114 ey=+0.060 area=0.0094
+    9.746 motor   pan_joint=-0.0034 tilt_joint=+0.0036
+    9.810 image   stamp=1791277913.652 640x480 rgb8
+    9.812 target  stamp=1791277913.652 ex=+0.117 ey=+0.060 area=0.0094
+    9.812 motor   pan_joint=-0.0035 tilt_joint=+0.0036
+    9.877 image   stamp=1791277913.718 640x480 rgb8
+    9.878 target  stamp=1791277913.718 ex=+0.120 ey=+0.060 area=0.0094
+    9.879 motor   pan_joint=-0.0036 tilt_joint=+0.0036
+    9.945 image   stamp=1791277913.785 640x480 rgb8
+    9.946 target  stamp=1791277913.785 ex=+0.122 ey=+0.058 area=0.0095
+    9.947 motor   pan_joint=-0.0037 tilt_joint=+0.0035
+   10.010 image   stamp=1791277913.852 640x480 rgb8
+   10.011 target  stamp=1791277913.852 ex=+0.123 ey=+0.058 area=0.0093
+   10.011 motor   pan_joint=-0.0037 tilt_joint=+0.0035
+   10.077 image   stamp=1791277913.918 640x480 rgb8
+   10.078 target  stamp=1791277913.918 ex=+0.127 ey=+0.058 area=0.0093
+   10.079 motor   pan_joint=-0.0038 tilt_joint=+0.0035
+   10.145 image   stamp=1791277913.985 640x480 rgb8
+   10.146 target  stamp=1791277913.985 ex=+0.130 ey=+0.056 area=0.0094
+   10.146 motor   pan_joint=-0.0039 tilt_joint=+0.0034
+   10.210 image   stamp=1791277914.052 640x480 rgb8
+   10.211 target  stamp=1791277914.052 ex=+0.131 ey=+0.056 area=0.0096
+   10.211 motor   pan_joint=-0.0039 tilt_joint=+0.0034
+   10.277 image   stamp=1791277914.118 640x480 rgb8
+   10.278 target  stamp=1791277914.118 ex=+0.133 ey=+0.056 area=0.0094
+   10.278 motor   pan_joint=-0.0040 tilt_joint=+0.0034
+   10.343 image   stamp=1791277914.185 640x480 rgb8
+   10.345 target  stamp=1791277914.185 ex=+0.136 ey=+0.054 area=0.0093
+   10.345 motor   pan_joint=-0.0041 tilt_joint=+0.0032
+   10.411 image   stamp=1791277914.252 640x480 rgb8
+   10.412 target  stamp=1791277914.252 ex=+0.138 ey=+0.054 area=0.0095
+   10.412 motor   pan_joint=-0.0041 tilt_joint=+0.0032
+   10.444 status  TRACKING
+   10.477 image   stamp=1791277914.318 640x480 rgb8
+   10.478 target  stamp=1791277914.318 ex=+0.139 ey=+0.052 area=0.0094
+   10.479 motor   pan_joint=-0.0042 tilt_joint=+0.0031
+   10.544 image   stamp=1791277914.385 640x480 rgb8
+   10.545 target  stamp=1791277914.385 ex=+0.142 ey=+0.052 area=0.0094
+   10.545 motor   pan_joint=-0.0043 tilt_joint=+0.0031
+   10.611 image   stamp=1791277914.452 640x480 rgb8
+   10.613 target  stamp=1791277914.452 ex=+0.144 ey=+0.050 area=0.0095
+   10.613 motor   pan_joint=-0.0043 tilt_joint=+0.0000
+   10.678 image   stamp=1791277914.518 640x480 rgb8
+   10.679 target  stamp=1791277914.518 ex=+0.145 ey=+0.056 area=0.0094
+   10.679 motor   pan_joint=-0.0044 tilt_joint=+0.0034
+   10.745 image   stamp=1791277914.585 640x480 rgb8
+   10.746 target  stamp=1791277914.585 ex=+0.148 ey=+0.054 area=0.0093
+   10.746 motor   pan_joint=-0.0045 tilt_joint=+0.0032
+   10.810 image   stamp=1791277914.652 640x480 rgb8
+   10.812 target  stamp=1791277914.652 ex=+0.150 ey=+0.052 area=0.0096
+   10.812 motor   pan_joint=-0.0045 tilt_joint=+0.0031
+   10.877 image   stamp=1791277914.718 640x480 rgb8
+   10.878 target  stamp=1791277914.718 ex=+0.152 ey=+0.052 area=0.0094
+   10.879 motor   pan_joint=-0.0045 tilt_joint=+0.0031
+   10.945 image   stamp=1791277914.785 640x480 rgb8
+   10.946 target  stamp=1791277914.785 ex=+0.155 ey=+0.050 area=0.0093
+   10.946 motor   pan_joint=-0.0046 tilt_joint=+0.0000
+   11.011 image   stamp=1791277914.852 640x480 rgb8
+   11.013 target  stamp=1791277914.852 ex=+0.156 ey=+0.054 area=0.0095
+   11.013 motor   pan_joint=-0.0047 tilt_joint=+0.0032
+   11.076 image   stamp=1791277914.918 640x480 rgb8
+   11.078 target  stamp=1791277914.918 ex=+0.158 ey=+0.052 area=0.0094
+   11.078 motor   pan_joint=-0.0047 tilt_joint=+0.0031
+   11.144 image   stamp=1791277914.985 640x480 rgb8
+   11.145 target  stamp=1791277914.985 ex=+0.161 ey=+0.050 area=0.0093
+   11.146 motor   pan_joint=-0.0048 tilt_joint=+0.0000
+   11.210 image   stamp=1791277915.052 640x480 rgb8
+   11.212 target  stamp=1791277915.052 ex=+0.161 ey=+0.054 area=0.0093
+   11.212 motor   pan_joint=-0.0048 tilt_joint=+0.0032
+   11.277 image   stamp=1791277915.118 640x480 rgb8
+   11.278 target  stamp=1791277915.118 ex=+0.164 ey=+0.050 area=0.0093
+   11.278 motor   pan_joint=-0.0049 tilt_joint=+0.0000
+   11.343 image   stamp=1791277915.185 640x480 rgb8
+   11.344 target  stamp=1791277915.185 ex=+0.166 ey=+0.054 area=0.0095
+   11.345 motor   pan_joint=-0.0050 tilt_joint=+0.0032
+   11.411 image   stamp=1791277915.252 640x480 rgb8
+   11.412 target  stamp=1791277915.252 ex=+0.167 ey=+0.052 area=0.0094
+   11.412 motor   pan_joint=-0.0050 tilt_joint=+0.0031
+   11.444 status  TRACKING
+   11.476 image   stamp=1791277915.318 640x480 rgb8
+   11.478 target  stamp=1791277915.318 ex=+0.169 ey=+0.048 area=0.0096
+   11.478 motor   pan_joint=-0.0051 tilt_joint=+0.0000
+   11.543 image   stamp=1791277915.385 640x480 rgb8
+   11.545 target  stamp=1791277915.385 ex=+0.170 ey=+0.052 area=0.0094
+   11.545 motor   pan_joint=-0.0051 tilt_joint=+0.0031
+   11.611 image   stamp=1791277915.452 640x480 rgb8
+   11.612 target  stamp=1791277915.452 ex=+0.173 ey=+0.048 area=0.0094
+   11.613 motor   pan_joint=-0.0052 tilt_joint=+0.0000
+   11.676 image   stamp=1791277915.518 640x480 rgb8
+   11.678 target  stamp=1791277915.518 ex=+0.173 ey=+0.052 area=0.0094
+   11.679 motor   pan_joint=-0.0052 tilt_joint=+0.0031
+   11.744 image   stamp=1791277915.585 640x480 rgb8
+   11.745 target  stamp=1791277915.585 ex=+0.177 ey=+0.048 area=0.0094
+   11.746 motor   pan_joint=-0.0053 tilt_joint=+0.0000
+   11.810 image   stamp=1791277915.652 640x480 rgb8
+   11.812 target  stamp=1791277915.652 ex=+0.177 ey=+0.050 area=0.0093
+   11.812 motor   pan_joint=-0.0053 tilt_joint=+0.0000
+   11.877 image   stamp=1791277915.718 640x480 rgb8
+   11.878 target  stamp=1791277915.718 ex=+0.180 ey=+0.054 area=0.0093
+   11.878 motor   pan_joint=-0.0054 tilt_joint=+0.0032
+   11.944 image   stamp=1791277915.785 640x480 rgb8
+   11.945 target  stamp=1791277915.785 ex=+0.180 ey=+0.050 area=0.0093
+   11.946 motor   pan_joint=-0.0054 tilt_joint=+0.0000
+   12.010 image   stamp=1791277915.852 640x480 rgb8
+   12.011 target  stamp=1791277915.852 ex=+0.183 ey=+0.052 area=0.0094
+   12.012 motor   pan_joint=-0.0055 tilt_joint=+0.0031
+   12.076 image   stamp=1791277915.918 640x480 rgb8
+   12.078 target  stamp=1791277915.918 ex=+0.183 ey=+0.048 area=0.0094
+   12.078 motor   pan_joint=-0.0055 tilt_joint=+0.0000
+   12.145 image   stamp=1791277915.985 640x480 rgb8
+   12.146 target  stamp=1791277915.985 ex=+0.186 ey=+0.048 area=0.0094
+   12.146 motor   pan_joint=-0.0056 tilt_joint=+0.0000
+   12.211 image   stamp=1791277916.052 640x480 rgb8
+   12.212 target  stamp=1791277916.052 ex=+0.186 ey=+0.050 area=0.0093
+   12.213 motor   pan_joint=-0.0056 tilt_joint=+0.0000
+   12.277 image   stamp=1791277916.118 640x480 rgb8
+   12.278 target  stamp=1791277916.118 ex=+0.188 ey=+0.052 area=0.0096
+   12.279 motor   pan_joint=-0.0056 tilt_joint=+0.0031
+   12.343 image   stamp=1791277916.185 640x480 rgb8
+   12.344 target  stamp=1791277916.185 ex=+0.189 ey=+0.046 area=0.0093
+   12.345 motor   pan_joint=-0.0057 tilt_joint=+0.0000
+   12.411 image   stamp=1791277916.252 640x480 rgb8
+   12.412 target  stamp=1791277916.252 ex=+0.191 ey=+0.048 area=0.0096
+   12.412 motor   pan_joint=-0.0057 tilt_joint=+0.0000
+   12.444 status  TRACKING
+   12.476 image   stamp=1791277916.318 640x480 rgb8
+   12.477 target  stamp=1791277916.318 ex=+0.192 ey=+0.048 area=0.0094
+   12.478 motor   pan_joint=-0.0058 tilt_joint=+0.0000
+   12.543 image   stamp=1791277916.385 640x480 rgb8
+   12.545 target  stamp=1791277916.385 ex=+0.192 ey=+0.050 area=0.0093
+   12.545 motor   pan_joint=-0.0058 tilt_joint=+0.0000
+   12.611 image   stamp=1791277916.452 640x480 rgb8
+   12.613 target  stamp=1791277916.452 ex=+0.194 ey=+0.050 area=0.0095
+   12.613 motor   pan_joint=-0.0058 tilt_joint=+0.0000
+   12.676 image   stamp=1791277916.518 640x480 rgb8
+   12.678 target  stamp=1791277916.518 ex=+0.195 ey=+0.050 area=0.0093
+   12.678 motor   pan_joint=-0.0059 tilt_joint=+0.0000
+   12.743 image   stamp=1791277916.585 640x480 rgb8
+   12.745 target  stamp=1791277916.585 ex=+0.195 ey=+0.050 area=0.0093
+   12.745 motor   pan_joint=-0.0059 tilt_joint=+0.0000
+   12.810 image   stamp=1791277916.652 640x480 rgb8
+   12.812 target  stamp=1791277916.652 ex=+0.198 ey=+0.050 area=0.0093
+   12.812 motor   pan_joint=-0.0060 tilt_joint=+0.0000
+   12.876 image   stamp=1791277916.718 640x480 rgb8
+   12.878 target  stamp=1791277916.718 ex=+0.198 ey=+0.050 area=0.0093
+   12.878 motor   pan_joint=-0.0060 tilt_joint=+0.0000
+   12.943 image   stamp=1791277916.785 640x480 rgb8
+   12.945 target  stamp=1791277916.785 ex=+0.198 ey=+0.050 area=0.0093
+   12.945 motor   pan_joint=-0.0060 tilt_joint=+0.0000
+   13.010 image   stamp=1791277916.852 640x480 rgb8
+   13.012 target  stamp=1791277916.852 ex=+0.202 ey=+0.050 area=0.0093
+   13.012 motor   pan_joint=-0.0060 tilt_joint=+0.0000
+   13.076 image   stamp=1791277916.918 640x480 rgb8
+   13.077 target  stamp=1791277916.918 ex=+0.202 ey=+0.050 area=0.0093
+   13.078 motor   pan_joint=-0.0060 tilt_joint=+0.0000
+   13.143 image   stamp=1791277916.985 640x480 rgb8
+   13.145 target  stamp=1791277916.985 ex=+0.202 ey=+0.048 area=0.0094
+   13.145 motor   pan_joint=-0.0060 tilt_joint=+0.0000
+   13.210 image   stamp=1791277917.052 640x480 rgb8
+   13.212 target  stamp=1791277917.052 ex=+0.203 ey=+0.048 area=0.0096
+   13.212 motor   pan_joint=-0.0061 tilt_joint=+0.0000
+   13.276 image   stamp=1791277917.118 640x480 rgb8
+   13.277 target  stamp=1791277917.118 ex=+0.205 ey=+0.046 area=0.0093
+   13.278 motor   pan_joint=-0.0061 tilt_joint=+0.0000
+   13.344 image   stamp=1791277917.185 640x480 rgb8
+   13.345 target  stamp=1791277917.185 ex=+0.205 ey=+0.046 area=0.0093
+   13.346 motor   pan_joint=-0.0061 tilt_joint=+0.0000
+   13.411 image   stamp=1791277917.252 640x480 rgb8
+   13.413 target  stamp=1791277917.252 ex=+0.205 ey=+0.044 area=0.0094
+   13.413 motor   pan_joint=-0.0061 tilt_joint=+0.0000
+   13.444 status  TRACKING
+   13.477 image   stamp=1791277917.318 640x480 rgb8
+   13.478 target  stamp=1791277917.318 ex=+0.206 ey=+0.042 area=0.0095
+   13.478 motor   pan_joint=-0.0062 tilt_joint=+0.0000
+   13.543 image   stamp=1791277917.385 640x480 rgb8
+   13.545 target  stamp=1791277917.385 ex=+0.208 ey=+0.042 area=0.0093
+   13.545 motor   pan_joint=-0.0062 tilt_joint=+0.0000
+   13.611 image   stamp=1791277917.452 640x480 rgb8
+   13.613 target  stamp=1791277917.452 ex=+0.208 ey=+0.040 area=0.0094
+   13.613 motor   pan_joint=-0.0062 tilt_joint=+0.0000
+   13.676 image   stamp=1791277917.518 640x480 rgb8
+   13.678 target  stamp=1791277917.518 ex=+0.208 ey=+0.037 area=0.0093
+   13.678 motor   pan_joint=-0.0062 tilt_joint=+0.0000
+   13.743 image   stamp=1791277917.585 640x480 rgb8
+   13.745 target  stamp=1791277917.585 ex=+0.209 ey=+0.035 area=0.0096
+   13.745 motor   pan_joint=-0.0063 tilt_joint=+0.0000
+   13.811 image   stamp=1791277917.652 640x480 rgb8
+   13.812 target  stamp=1791277917.652 ex=+0.209 ey=+0.031 area=0.0096
+   13.813 motor   pan_joint=-0.0063 tilt_joint=+0.0000
+   13.877 image   stamp=1791277917.718 640x480 rgb8
+   13.878 target  stamp=1791277917.718 ex=+0.211 ey=+0.029 area=0.0093
+   13.879 motor   pan_joint=-0.0063 tilt_joint=+0.0000
+   13.943 image   stamp=1791277917.785 640x480 rgb8
+   13.944 target  stamp=1791277917.785 ex=+0.211 ey=+0.027 area=0.0094
+   13.944 motor   pan_joint=-0.0063 tilt_joint=+0.0000
+   14.009 image   stamp=1791277917.852 640x480 rgb8
+   14.011 target  stamp=1791277917.852 ex=+0.211 ey=+0.025 area=0.0093
+   14.011 motor   pan_joint=-0.0063 tilt_joint=+0.0000
+   14.076 image   stamp=1791277917.918 640x480 rgb8
+   14.078 target  stamp=1791277917.918 ex=+0.211 ey=+0.021 area=0.0093
+   14.078 motor   pan_joint=-0.0063 tilt_joint=+0.0000
+   14.145 image   stamp=1791277917.985 640x480 rgb8
+   14.146 target  stamp=1791277917.985 ex=+0.211 ey=+0.019 area=0.0094
+   14.146 motor   pan_joint=-0.0063 tilt_joint=+0.0000
+   14.210 image   stamp=1791277918.052 640x480 rgb8
+   14.211 target  stamp=1791277918.052 ex=+0.211 ey=+0.015 area=0.0094
+   14.211 motor   pan_joint=-0.0063 tilt_joint=+0.0000
+   14.278 image   stamp=1791277918.118 640x480 rgb8
+   14.279 target  stamp=1791277918.118 ex=+0.212 ey=+0.010 area=0.0096
+   14.280 motor   pan_joint=-0.0064 tilt_joint=+0.0000
+   14.343 image   stamp=1791277918.185 640x480 rgb8
+   14.344 target  stamp=1791277918.185 ex=+0.212 ey=+0.008 area=0.0095
+   14.345 motor   pan_joint=-0.0064 tilt_joint=+0.0000
+   14.410 image   stamp=1791277918.252 640x480 rgb8
+   14.411 target  stamp=1791277918.252 ex=+0.212 ey=+0.004 area=0.0095
+   14.412 motor   pan_joint=-0.0064 tilt_joint=+0.0000
+   14.444 status  TRACKING
+   14.478 image   stamp=1791277918.319 640x480 rgb8
+   14.479 target  stamp=1791277918.319 ex=+0.214 ey=+0.000 area=0.0093
+   14.480 motor   pan_joint=-0.0064 tilt_joint=+0.0000
+   14.545 image   stamp=1791277918.385 640x480 rgb8
+   14.546 target  stamp=1791277918.385 ex=+0.214 ey=-0.004 area=0.0093
+   14.546 motor   pan_joint=-0.0064 tilt_joint=+0.0000
+   14.611 image   stamp=1791277918.452 640x480 rgb8
+   14.613 target  stamp=1791277918.452 ex=+0.000 ey=+0.000 area=0.0000
+   14.678 image   stamp=1791277918.518 640x480 rgb8
+   14.679 target  stamp=1791277918.518 ex=+0.000 ey=+0.000 area=0.0000
+   14.744 image   stamp=1791277918.585 640x480 rgb8
+   14.745 target  stamp=1791277918.585 ex=+0.000 ey=+0.000 area=0.0000
+   14.811 image   stamp=1791277918.652 640x480 rgb8
+   14.812 target  stamp=1791277918.652 ex=+0.000 ey=+0.000 area=0.0000
+   14.877 image   stamp=1791277918.718 640x480 rgb8
+   14.879 target  stamp=1791277918.718 ex=+0.000 ey=+0.000 area=0.0000
+   14.943 image   stamp=1791277918.785 640x480 rgb8
+   14.944 target  stamp=1791277918.785 ex=+0.000 ey=+0.000 area=0.0000
+   15.011 image   stamp=1791277918.852 640x480 rgb8
+   15.012 target  stamp=1791277918.852 ex=+0.000 ey=+0.000 area=0.0000
+   15.077 image   stamp=1791277918.918 640x480 rgb8
+   15.079 target  stamp=1791277918.918 ex=+0.000 ey=+0.000 area=0.0000
+   15.143 image   stamp=1791277918.985 640x480 rgb8
+   15.145 status  LOST
+   15.145 target  stamp=1791277918.985 ex=+0.000 ey=+0.000 area=0.0000
+   15.210 image   stamp=1791277919.052 640x480 rgb8
+   15.212 target  stamp=1791277919.052 ex=+0.000 ey=+0.000 area=0.0000
+   15.277 image   stamp=1791277919.118 640x480 rgb8
+   15.279 target  stamp=1791277919.118 ex=+0.000 ey=+0.000 area=0.0000
+   15.343 image   stamp=1791277919.185 640x480 rgb8
+   15.344 target  stamp=1791277919.185 ex=+0.000 ey=+0.000 area=0.0000
+   15.411 image   stamp=1791277919.252 640x480 rgb8
+   15.412 target  stamp=1791277919.252 ex=+0.000 ey=+0.000 area=0.0000
+   15.444 status  LOST
+   15.477 image   stamp=1791277919.318 640x480 rgb8
+   15.478 target  stamp=1791277919.318 ex=+0.000 ey=+0.000 area=0.0000
