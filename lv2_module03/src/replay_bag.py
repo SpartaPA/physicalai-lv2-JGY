@@ -1,14 +1,14 @@
 # src/replay_bag.py
-"""녹화된 bag을 다시 처리해 검출 화면·보정 오차·연동 로그를 만든다.
+"""녹화된 bag을 다시 처리해 검출 화면, 보정 오차, 연동 로그를 만든다.
 
 입력 bag 토픽: /camera/camera/color/image_raw, /target, /tracking_status, /motor_cmd
   /target (PointStamped): x = ex, y = ey (-1~+1), z = area_ratio, header = 원본 영상 시각
 
 출력 (lv2_module03/ 기준)
   data/frames/<bag>/            대표 입력 프레임 (보정용 원본, BGR PNG)
-  results/detection/<bag>/      검출 화면 (원본 | 마스크, 후보 contour·bbox·중심)
+  results/detection/<bag>/      검출 화면 (원본 | 마스크, 후보 contour, bbox, 중심)
   results/calibration_error/<bag>.csv   프레임별 Python 검출 vs 녹화된 /target 오차
-  results/logs/<bag>_link.log   영상 → /target → /tracking_status → /motor_cmd 시간순 연동 로그
+  results/logs/<bag>_link.log   영상 -> /target -> /tracking_status -> /motor_cmd 시간순 연동 로그
   results/summary.csv           bag별 요약 (한 줄씩 갱신)
 
 실행
@@ -144,10 +144,10 @@ def main():
         wr.writeheader()
         wr.writerows(rows)
 
-    # 3) 연동 로그: 영상 → /target → /tracking_status → /motor_cmd 시간순
+    # 3) 연동 로그: 영상 -> /target -> /tracking_status -> /motor_cmd 시간순
     with open(log_dir / f"{name}_link.log", "w") as f:
         f.write(f"# bag: {name}  (시간 = bag 기록 시각 기준 초)\n")
-        f.write("# image: 원본 영상 stamp | target: ex ey area | status: 상태 | motor: 이름=Δrad\n")
+        f.write("# image: 원본 영상 stamp | target: ex ey area | status: 상태 | motor: 이름=변화량(rad)\n")
         for t, topic, msg in events:
             ts = f"{(t - t_first) / 1e9:9.3f}"
             if topic == IMAGE:

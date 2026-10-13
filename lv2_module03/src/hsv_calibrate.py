@@ -1,5 +1,5 @@
 # src/hsv_calibrate.py
-"""HSV 범위 보정 도구 — 트랙바로 범위를 조정하고, 드래그한 영역의 HSV 분포를 측정해 저장한다.
+"""HSV 범위 보정 도구 - 트랙바로 범위를 조정하고, 드래그한 영역의 HSV 분포를 측정해 저장한다.
 
 실행 (lv2_module03/ 에서)
   python3 src/hsv_calibrate.py                     # 카메라 0번
@@ -7,10 +7,10 @@
   python3 src/hsv_calibrate.py --source ros2_ws/src/realsense/test/data/lit_pillar_20261002.png
 
 조작
-  마우스 드래그   목표 영역 선택 → H/S/V 5~95 백분위 출력 (realsense.yaml 주석과 같은 측정법)
+  마우스 드래그   목표 영역 선택 -> H/S/V 5~95 백분위 출력 (realsense.yaml 주석과 같은 측정법)
   a              선택 영역 백분위로 범위 1을 맞춘다
   s              config/realsense_<--name>.yaml 로 저장 (perception_node --params-file 형식)
-  space          일시정지 / 재개 (카메라·영상)
+  space          일시정지 / 재개 (카메라, 영상)
   q / ESC        종료
 """
 import argparse
@@ -25,7 +25,7 @@ from color_detector import (DEFAULT_CAMERA_INFO, DEFAULT_PARAMS, MODULE_DIR, Cam
 
 WIN = "hsv_calibrate"
 CTRL = "hsv_calibrate controls"
-# (트랙바 이름, 최댓값, 설정 필드, 인덱스) — 인덱스 None 은 스칼라 필드
+# (트랙바 이름, 최댓값, 설정 필드, 인덱스) - 인덱스 None 은 스칼라 필드
 BARS = [
     ("H lo", 179, "hsv_lower", 0), ("H hi", 179, "hsv_upper", 0),
     ("S lo", 255, "hsv_lower", 1), ("S hi", 255, "hsv_upper", 1),
@@ -74,8 +74,8 @@ def open_source(src):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawTextHelpFormatter)
     ap.add_argument("--source", default="0", help="카메라 번호, 영상 파일 또는 이미지 파일")
-    ap.add_argument("--params", default=str(DEFAULT_PARAMS), help="시작 HSV·필터 설정")
-    ap.add_argument("--camera-info", default=str(DEFAULT_CAMERA_INFO), help="내부 파라미터·왜곡")
+    ap.add_argument("--params", default=str(DEFAULT_PARAMS), help="시작 HSV, 필터 설정")
+    ap.add_argument("--camera-info", default=str(DEFAULT_CAMERA_INFO), help="내부 파라미터, 왜곡")
     ap.add_argument("--name", default="tuned", help="저장 파일 이름: config/realsense_<name>.yaml")
     args = ap.parse_args()
 
@@ -137,7 +137,7 @@ def main():
             cfg.hsv_lower, cfg.hsv_upper = lo, hi
             for name, _, f, i in BARS:
                 cv2.setTrackbarPos(name, CTRL, get_field(cfg, f, i))
-            print(f"범위 1 ← {lo} ~ {hi}")
+            print(f"범위 1 <- {lo} ~ {hi}")
         elif key == ord("s"):
             out = MODULE_DIR / "config" / f"realsense_{args.name}.yaml"
             cfg.save(out)

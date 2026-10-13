@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
-# src/link_test.sh — 인지·제어 노드 연동 시험 (카메라·모터 없이)
+# src/link_test.sh - 인지, 제어 노드 연동 시험 (카메라, 모터 없이)
 #
-# bag의 영상만 재생 → perception_node(/target) → dynamixel_move_node(/tracking_status, /motor_cmd)
+# bag의 영상만 재생 -> perception_node(/target) -> dynamixel_move_node(/tracking_status, /motor_cmd)
 # 를 실제 ROS 노드로 돌리고, 새로 나온 토픽을 녹화한 뒤 replay_bag.py로 결과를 만든다.
 #
 # 사용 (lv2_module03/ 에서):
 #   src/link_test.sh <입력 bag 폴더> [RUN_ID]
 # 출력:
-#   results/logs/<RUN_ID>_launch.log      노드 실행 로그 (perception fps·검출, FSM 전이)
-#   results/logs/<RUN_ID>_link.log        영상 → /target → /tracking_status → /motor_cmd 시간순
+#   results/logs/<RUN_ID>_launch.log      노드 실행 로그 (perception fps, 검출, FSM 전이)
+#   results/logs/<RUN_ID>_link.log        영상 -> /target -> /tracking_status -> /motor_cmd 시간순
 #   results/calibration_error/<RUN_ID>.csv, results/detection/<RUN_ID>/, results/summary.csv
 set -eo pipefail
 
@@ -22,7 +22,7 @@ mkdir -p "$LOGS"
 set +u
 source /opt/ros/lyrical/setup.bash
 source "$MOD/ros2_ws/install/setup.bash"
-export ROS_DOMAIN_ID=${ROS_DOMAIN_ID:-77} ROS_LOCALHOST_ONLY=1   # 다른 로봇·PC 토픽과 섞이지 않게
+export ROS_DOMAIN_ID=${ROS_DOMAIN_ID:-77} ROS_LOCALHOST_ONLY=1   # 다른 로봇, PC 토픽과 섞이지 않게
 
 cleanup() {
   [[ -n $REC_PID ]] && kill -TERM "$REC_PID" 2>/dev/null || true
@@ -32,7 +32,7 @@ cleanup() {
 }
 trap cleanup EXIT
 
-# use_motor:=false → 시리얼 없이 명령만 계산 (dynamixel_controller는 /dev/opencr 없음 오류를 남긴다)
+# use_motor:=false -> 시리얼 없이 명령만 계산 (dynamixel_controller는 /dev/opencr 없음 오류를 남긴다)
 ros2 launch bringup bringup.launch.py use_camera:=false use_motor:=false > "$LOGS/${RUN_ID}_launch.log" 2>&1 &
 LAUNCH_PID=$!
 sleep 4

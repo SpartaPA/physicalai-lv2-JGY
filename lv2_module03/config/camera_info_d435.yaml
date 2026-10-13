@@ -1,4 +1,4 @@
-# RealSense D435 컬러 카메라 내부 파라미터·왜곡 계수 (camera_calibration_parsers 형식)
+# RealSense D435 컬러 카메라 내부 파라미터, 왜곡 계수 (camera_calibration_parsers 형식)
 # 장비: D435 (시리얼 261322072019, 펌웨어 5.15.1.55), 컬러 640x480x30
 # 출처: realsense2_camera가 발행한 /camera/camera/color/camera_info (공장 캘리브레이션)
 #   기록: lv2_perception/lv2_module5/results/perception_env_record.md

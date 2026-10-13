@@ -1,5 +1,5 @@
 # src/run_detector.py
-"""보정한 HSV 설정으로 검출을 실행한다 (카메라·영상·이미지).
+"""보정한 HSV 설정으로 검출을 실행한다 (카메라, 영상, 이미지).
 
 실행 (lv2_module03/ 에서)
   python3 src/run_detector.py                                   # 카메라 0번, realsense.yaml

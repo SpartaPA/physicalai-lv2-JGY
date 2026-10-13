@@ -1,5 +1,5 @@
 # bag: link_scene8  (시간 = bag 기록 시각 기준 초)
-# image: 원본 영상 stamp | target: ex ey area | status: 상태 | motor: 이름=Δrad
+# image: 원본 영상 stamp | target: ex ey area | status: 상태 | motor: 이름=변화량(rad)
     0.000 status  IDLE
     0.914 status  IDLE
     1.913 status  IDLE

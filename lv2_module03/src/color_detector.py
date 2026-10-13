@@ -1,12 +1,12 @@
 # src/color_detector.py
-"""HSV 색 검출 — ros2_ws/src/realsense/src/detector.cpp 와 같은 처리 (Python 판).
+"""HSV 색 검출 - ros2_ws/src/realsense/src/detector.cpp 와 같은 처리 (Python 판).
 
-처리 순서: 왜곡 보정 → BGR→HSV → inRange(범위 1 OR 범위 2) → 열림 → 닫힘
-          → 컨투어 → 면적비·종횡비·채움비 필터 → 통과한 것 중 면적 최대 → 모멘트 중심
+처리 순서: 왜곡 보정 -> BGR->HSV -> inRange(범위 1 OR 범위 2) -> 열림 -> 닫힘
+          -> 컨투어 -> 면적비, 종횡비, 채움비 필터 -> 통과한 것 중 면적 최대 -> 모멘트 중심
 
 설정 파일
-  HSV·필터: ros2_ws/src/realsense/config/realsense.yaml (perception_node: ros__parameters:)
-  내부 파라미터·왜곡: config/camera_info_d435.yaml (camera_calibration_parsers 형식)
+  HSV, 필터: ros2_ws/src/realsense/config/realsense.yaml (perception_node: ros__parameters:)
+  내부 파라미터, 왜곡: config/camera_info_d435.yaml (camera_calibration_parsers 형식)
 """
 from dataclasses import dataclass, field, asdict
 from pathlib import Path
@@ -23,14 +23,14 @@ NODE = "perception_node"
 
 @dataclass
 class DetectorConfig:
-    hsv_lower: list = field(default_factory=lambda: [103, 220, 20])   # H 0~179, S·V 0~255
+    hsv_lower: list = field(default_factory=lambda: [103, 220, 20])   # H 0~179, S, V 0~255
     hsv_upper: list = field(default_factory=lambda: [130, 255, 255])
     hsv_bright_enabled: bool = True
     hsv_bright_lower: list = field(default_factory=lambda: [103, 150, 130])
     hsv_bright_upper: list = field(default_factory=lambda: [130, 255, 255])
     open_kernel: int = 3          # 작은 점 제거 커널(px), 0이면 생략
     close_kernel: int = 5         # 작은 구멍 메우기 커널(px), 0이면 생략
-    min_area_ratio: float = 0.0006  # contour_area / (W×H)
+    min_area_ratio: float = 0.0006  # contour_area / (W*H)
     max_area_ratio: float = 0.15
     aspect_max: float = 4.0       # 긴 변 / 짧은 변 (minAreaRect)
     fill_min: float = 0.6         # 컨투어 면적 / 회전 사각형 면적
@@ -42,7 +42,7 @@ class DetectorConfig:
         return cls(**{k: v for k, v in params.items() if k in keys})  # 노드 전용 키(토픽 등)는 무시
 
     def save(self, path, node=NODE):
-        """perception_node 파라미터 파일 형식으로 저장 → --params-file 로 바로 쓸 수 있다."""
+        """perception_node 파라미터 파일 형식으로 저장 -> --params-file 로 바로 쓸 수 있다."""
         Path(path).write_text(yaml.safe_dump(
             {node: {"ros__parameters": asdict(self)}}, sort_keys=False, default_flow_style=None))
 
@@ -76,7 +76,7 @@ class Undistorter:
         if self.identity:
             return bgr
         if bgr.shape[1] != self.info.width or bgr.shape[0] != self.info.height:
-            raise ValueError(f"영상 {bgr.shape[1]}x{bgr.shape[0]} ≠ 캘리브레이션 "
+            raise ValueError(f"영상 {bgr.shape[1]}x{bgr.shape[0]} != 캘리브레이션 "
                              f"{self.info.width}x{self.info.height}")
         return cv2.remap(bgr, self.map1, self.map2, cv2.INTER_LINEAR)
 

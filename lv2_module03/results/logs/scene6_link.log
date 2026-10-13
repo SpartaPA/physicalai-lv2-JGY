@@ -1,5 +1,5 @@
 # bag: scene6  (시간 = bag 기록 시각 기준 초)
-# image: 원본 영상 stamp | target: ex ey area | status: 상태 | motor: 이름=Δrad
+# image: 원본 영상 stamp | target: ex ey area | status: 상태 | motor: 이름=변화량(rad)
     0.000 target  stamp=1791277527.522 ex=-0.164 ey=-0.058 area=0.0093
     0.001 motor   pan_joint=+0.0049 tilt_joint=-0.0035
     0.067 target  stamp=1791277527.589 ex=-0.167 ey=-0.058 area=0.0093
